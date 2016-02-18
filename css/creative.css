@@ -1,1 +1,144 @@
-/* Inserta tu codigo CSS aqui */
+/*--------------------------AVANCES_DIANA---------------------------------------*/
+/*------------------------------Header---------------------------------------*/
+.nav > li > a:hover,
+.nav > li > a:focus {
+	background-color: rgba(295, 295, 295, 0.1);
+}
+@media only screen and (max-width: 480px) {
+	.nav > li > a:hover,
+	.nav > li > a:focus {
+		background-color: rgba(250, 98, 29, 0.4);
+	}
+}
+@media only screen and (max-width: 480px) {
+	.text-responsive{
+		color: #F05F40;
+	}
+}
+.navbar-fixed-top{
+	background-color:rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 480px) {
+	.navbar-fixed-top{
+		background-color:rgba(295, 295, 295, 1);
+	}
+}
+.icon-bar {
+	background-color: white;
+}
+@media only screen and (max-width: 480px) {
+	.icon-bar{
+		background-color:black;
+	}
+}
+.a-hover{
+	color: white;
+	text-shadow:5px 5px 5px #000000;
+}
+.a-hover:hover{
+	color:#F05F40;
+}
+@media only screen and (max-width: 480px) {
+	.a-hover{
+		color: #F05F40;
+		text-shadow: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.a-hover:hover{
+		color: black;
+		text-shadow: none;
+	}
+}
+.a-hover-head{
+	text-shadow:5px 5px 5px #000000;
+}
+.a-hover-head:hover{
+	color: #F05F40;
+}
+@media only screen and (max-width: 480px) {
+	.a-hover-head{
+		color:#F05F40;
+		text-shadow: none;
+	}
+}
+.bg-head{
+	background:url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 0%;
+	margin-top: -80px;
+	height: 840px;
+}
+.h1-head{
+	font-weight: bold;
+}
+.hr-head{
+	border: 1px solid #F05F40;
+	align-content: center;
+	width: 50px;
+}
+.btn-header{
+	border-radius: 50px 50px 50px 50px;
+	background: #F05F40;
+	color: white;
+	padding: 1% 2%;
+}
+.btn-header:hover{
+	text-decoration: none;
+	color: #F05F40;
+	background: black;
+	font-weight: bold;
+}
+.icon-nav{
+	margin-left: 10px;
+}
+@media only screen and (max-width: 480px) {
+	.btn-header{
+		border-radius: 50px 50px 50px 50px;
+		background: #F05F40;
+		color: white;
+		padding: 3% 4%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.mt-responsivo{
+		margin-top: 200px;
+	}
+}
+/*----------------------------------SECTION-SOBRE-MI------------*/
+
+.bg-orange{
+	background: #F05F40;
+}
+.hr-sobre-mi{
+	border: 1px solid white;
+	align-content: center;
+	width: 50px;
+}
+@media only screen and (max-width: 480px) {
+	.pd-responsive{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15%;
+	}
+}
+/*----------------------------SECTION_SERVICIOS------------------------------*/
+.icons_servicios{
+	color: #F05F40;
+}
+@media only screen and (max-width: 480px) {
+	.row-responsive {
+		margin:0;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.col-mg-responsive {
+		margin-top: 60px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.col-mt-responsive {
+		margin-bottom: 80px;
+	}
+}

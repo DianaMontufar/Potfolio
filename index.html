@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/png" href="img/icon/pc.png">
+
     <title>Portfolio Theme</title>
 
     <!-- Bootstrap Core CSS -->
@@ -17,7 +19,8 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
+    <link rel="stylesheet" href="css/utilities.css" type="text/css">
+    <link rel="stylesheet" href="css/hover.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
@@ -29,10 +32,86 @@
     <![endif]-->
 
 </head>
-
 <body>
-    <!-- Inserta tu codigo aqui -->
+    <header>
+        <div class="container-fluid bg-head text-white text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-fixed-top" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Desplegar navegación</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand text-shadow f-1 a-hover-head hvr-bounce-in Merriweather text-white" href="#">MI PORTAFOLIO<i class="fa fa-desktop icon-nav"></i></a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a class="a-hover" href="#">SOBRE MÍ</a></li>
+                                <li><a class="a-hover" href="#">SERVICIOS</a></li>
+                                <li><a class="a-hover" href="#">MIS TRABAJOS</a></li>
+                                <li><a class="a-hover" href="#">CONTÁCTAME</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <h1 class="h1-head mt-380 text-shadow mt-responsivo">HOLA, MI NOMBRE ES KATY</h1>
+                    <h1 class="h1-head text-shadow">SOY CODER DE LABORATORIA</h1>
+                    <hr class="hr-head">
+                    <p>Estás interesado en desarrollar un sistio web o necesitas un frontend develeper, yo te puedo ayudar</p> 
+                    <p>en los servicios que brindo.</p><br>
+                    <a class="btn-header hvr-pop" href="#">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="sobre-mi bg-orange text-center">
+        <div class="container-fluid">
+            <div class="row mg-btm-50 mg-top-50  text-white">
+                <div class="col-md-12">
+                    <h2>SOBRE MÍ</h2>
+                    <hr class="hr-sobre-mi">
+                    <p class="pl-25 pr-25 pd-responsive">Soy egresada de Laboratoria salí con el título de Frontend developer Jr. desarrollo páginas web en HTML/CSS/JavaScript. Soy creativa , inteligente y alegre cosa que transmito en cada una de las web que desarrollo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="servicios text-center">
+        <div class="container-fluid">
+            <div class="row mg-top-50">
+                <div class="col-md-12">
+                    <h2>SERVICIOS</h2>
+                    <hr class="hr-head">
+                </div>
+            </div>
+            <div class="row mg-btm-50 ml-150 mr-150 mg-top row-responsive">
+                <div class="col-md-3 col-mg-responsive">
+                    <a href=""><i class="fa fa-diamond fa-3x icons_servicios hvr-bounce-in"></i></a>
+                    <h4>Desarrollo de plantillas</h4>
+                    <p>Desarrollo de plantillas a medida de HTML5/CSS3/JS</p>
+                </div>
+                <div class="col-md-3 col-mg-responsive">
+                    <a href="#"><i class="fa fa-paper-plane fa-3x icons_servicios hvr-wobble-to-top-right"></i></a>
+                    <h4>Campañas de Mailing</h4>
+                    <p>Desarrollo de plantillas para campañas de correo</p>
+                </div>
+                <div class="col-md-3 col-mg-responsive">
+                    <a href="#"><i class="fa fa-newspaper-o fa-3x icons_servicios hvr-grow-rotate"></i></a>
+                    <h4>Full websites</h4>
+                    <p>Desarrollo de websites completos y dinámicos</p>
+                </div>
+                <div class="col-md-3 col-mg-responsive  col-mt-responsive">
+                    <a href="#"><i class="fa fa-heart fa-3x icons_servicios hvr-pulse"></i></a>
+                    <h4>Aplicaciones Android</h4>
+                    <p>Desarrollo aplicaciones android listas para subir a la tienda</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+
+<!--***********************************SCRIPTS******************************************************-->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

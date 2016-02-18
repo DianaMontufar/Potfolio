@@ -254,3 +254,26 @@ hr{
 	 width: 80%;
 	 align-content: center;
 }
+
+/*------------------------------------UTILITIES DIANA--------------------------------------*/
+.text-shadow{
+	text-shadow:5px 5px 5px #000000;
+}
+.mt-380{
+	margin-top: 360px;
+}
+.pl-25{
+	padding-left: 25%;
+}
+.pr-25{
+	padding-right: 25%;
+}
+.ml-150{
+	margin-left: 150px;
+}
+.mr-150{
+	margin-right: 150px;
+}
+.Merriweather{
+	font-family: "Merriweather";
+}

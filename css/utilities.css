@@ -274,6 +274,18 @@ hr{
 .mr-150{
 	margin-right: 150px;
 }
-.Merriweather{
-	font-family: "Merriweather";
+
+/*------UTILIDADES-NIKKI------*/
+.text-black{
+	color: black;
+}
+.text-orange{
+	color: #D8563A;
+}
+.ph-lr{
+	padding-left: 380px;
+    padding-right: 380px;
+}
+.bg-black{
+	background: #222222;
 }

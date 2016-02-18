@@ -142,3 +142,65 @@
 		margin-bottom: 80px;
 	}
 }
+
+/* -----Nikki-----*/
+.box-col img{
+	width: 100%;
+}
+.bg-black h4{
+	font-size: 2rem;
+	text-shadow: 2px 2px 2px black;
+}
+.bg-github a{
+	padding: 10px 25px;
+	background: white;
+	color: #222222;
+	border: 1px solid white;
+	border-radius: 30px;
+	font-size: 1rem;
+	text-decoration: none;
+}
+.bg-github a:hover {
+	padding: 10px 25px;
+	background: #222222;
+	color: white;
+	border: 1px solid white;
+	border-radius: 30px;
+	font-size: 1rem;
+	text-decoration: none;
+}
+hr{
+	border-bottom: 2px solid #D8563A;
+	width: 45px !important;
+}
+.box-row{
+	margin-right: 0px !important;
+}
+
+.bg-contact p{
+	font-size: 1.2rem;
+}
+.col-md-6 a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+.col-md-6 a:hover{
+	text-decoration: none;
+	color: #D8563A;
+	font-size: 30px;
+}
+
+/*------MEDIA-NIKKI------*/
+@media screen and (min-width:299px) and (max-width: 768px){
+    .ph-lr {
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+    }
+    .mt-21 {
+    	margin-top: 21px;
+    }
+    .bg-opacity{
+	background: rgba(218,53,2,0.5);
+    }
+}

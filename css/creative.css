@@ -72,6 +72,7 @@
 }
 .h1-head{
 	font-weight: bold;
+	font-size: 50px !important;
 }
 .hr-head{
 	border: 1px solid #F05F40;
